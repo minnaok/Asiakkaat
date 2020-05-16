@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+    tr:nth-child(2n+1) {   
+              background: lightyellow;   
+              color: black;   
+              font-size:20px;
+              text-align:left;  
+            } 
+       th:nth-child(1n+1) {   
+              background: grey;   
+              color: white;   
+              font-size:20px;  
+            }                   
+
+table {
+	background-color: lightpurple;
+	text-align: left;
+	font-size: 20px;
+	color: black;
+	font-family: arial;
+	
+	
+}
+input[type=button]{
+  background-color: pink;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+	
+	
+} 
+
+input[type=button] {
+	cursor: pointer;
+	background-color: #8080ff;
+}
+
+body {
+	font-family: arial;
+	margin: 50px;
+	background-color:lightgrey;
+}
